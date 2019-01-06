@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:adjustViewBounds="true"
+    android:background="@color/text_color_primary"
+    tools:context=".activities.AdminActivity">
+
+    <TextView
+        android:id="@+id/adminSub"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/panelSub"
+        android:background="@drawable/borderdrawable"
+        android:padding="10sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+
+
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mobilerepairsub"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/mobilerepairsub"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infosub" />
+
+    <TextView
+        android:id="@+id/mobileOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/mobilerepaircount"
+        android:textAlignment="center"
+        android:textColor="@color/green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/mobilerepairsub"
+        app:layout_constraintTop_toBottomOf="@+id/repaircount" />
+
+    <TextView
+        android:id="@+id/tabletrepairsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="16dp"
+        android:text="@string/tabletrepairsub"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mobilerepairsub" />
+
+    <TextView
+        android:id="@+id/tabletorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tabletrepaircount"
+        android:textAlignment="center"
+        android:textColor="@color/green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/tabletrepairsub"
+        app:layout_constraintTop_toBottomOf="@+id/mobileOrder" />
+
+    <TextView
+        android:id="@+id/totalrepairsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/totalrepairsub"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabletrepairsub" />
+
+    <TextView
+        android:id="@+id/totalrepair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/totalrepair"
+        android:textAlignment="center"
+        android:textColor="@color/green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/totalrepairsub"
+        app:layout_constraintTop_toBottomOf="@+id/tabletorder" />
+
+    <Button
+        android:id="@+id/mobilebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="mobilebutton"
+
+        android:text="@string/mobilebutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totalrepair"
+        app:layout_constraintVertical_bias="0.267" />
+
+    <TextView
+        android:id="@+id/infosub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/infosub"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminSub" />
+
+    <TextView
+        android:id="@+id/repaircount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/repaircount"
+        android:textColor="@color/green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/infosub"
+        app:layout_constraintTop_toBottomOf="@+id/adminSub" />
+
+
+</android.support.constraint.ConstraintLayout>

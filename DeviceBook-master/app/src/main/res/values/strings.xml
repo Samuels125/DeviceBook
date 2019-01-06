@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Device Book</string>
+    <string name="menu_settings">Main Menu</string>
+    <string name="homeHeader">Device Book</string>
+    <string name="homeImg">Home Image</string>
+    <string name="homeSubtitle">Booking your repair is now as easy as reading a book</string>
+    <string name="bookButton">Enter</string>
+    <string name="optionsMenu">Options</string>
+    <string name="phone_device">Phones</string>
+    <string name="phone_captio">Mobile Phones</string>
+    <string name="pickUpOption">Courier Picks Up</string>
+    <string name="postOption">Post it to us </string>
+    <string name="DeliverySubtitle">How would you like us to recieve your device</string>
+    <string name="continueButton">Continue</string>
+    <string name="productBanner">Product Banner</string>
+    <string name="productBannerSubtitle">Please select your option</string>
+    <string name="address1">Enter address</string>
+    <string name="pnuContinue">Continue</string>
+    <string name="csName">Username   </string>
+
+    <string name="csNumber">Fullname: </string>
+    <string name="csEmail">Email  </string>
+
+    <string name="csEmail2">Email:</string>
+
+    <string name="csAddress">Address</string>
+    <string name="csAddress2">Address Line:</string>
+    <string name="customerDetailsSummary">Please review your details before you proceed</string>
+    <string name="csEditButton">Edit</string>
+    <string name="csBookingSummary">Booking Details</string>
+    <string name="csdeviceType">Device</string>
+    <string name="csBrand">Brand </string>
+    <string name="csModel">Model </string>
+
+    <string name="csRecieveMethod3">Recieve</string>
+
+    <string name="csDeviceType2">Device</string>
+    <string name="csBrand2">Brand</string>
+    <string name="csModel2">Model</string>
+    <string name="csfault2">Fault</string>
+    <string name="csColor2">Color</string>
+    <string name="csEditButton2">Edit</string>
+    <string name="csContinueButton">Continue</string>
+
+
+    <string name="csFault">Fault</string>
+    <string name="csDeletebtn1">Delete</string>
+    <string name="csDeleteBtn2">Delete</string>
+    <string name="orderIntro">Your device booking details are listed below:</string>
+    <string name="personalIntro">Your personal details are</string>
+    <string name="introBooking">Thank you for booking with DeviceBook</string>
+    <string name="customerEmail">Email</string>
+    <string name="customerAddress">Address 1</string>
+    <string name="customerCountry">Country</string>
+    <string name="customerDeviceType">Device Type</string>
+    <string name="customerBrandType">Brand</string>
+    <string name="customerModelType">ModelType</string>
+    <string name="customerFaultType">Fault</string>
+    <string name="CustomerColorType">Color</string>
+    <string name="CustomerRecieveType">Recieve</string>
+    <string name="ChangeText">If you change your mind you can delete your order using button below</string>
+    <string name="DeleteOrder">Delete</string>
+    <string name="CustomerId">Customer Id</string>
+    <string name="csId">Customer Id</string>
+    <string name="logOnSub">Please Enter your Username </string>
+    <string name="nameEntryButton">Enter</string>
+    <string name="altersub">Enter user ID to delete</string>
+    <string name="alterEntry">ID</string>
+    <string name="alterDeleteButton">Delete</string>
+    <string name="fname">Enter Username*</string>
+    <string name="lname">Enter Full Name</string>
+    <string name="csidsub">Customer Id</string>
+    <string name="csaddresssub">Address</string>
+    <string name="fnamesub">Username</string>
+    <string name="lnamesub">Fullname</string>
+    <string name="emailsub">Email</string>
+    <string name="devicesub">Device Type</string>
+    <string name="brandsub">Brand</string>
+    <string name="modelsub">Model</string>
+    <string name="faultsub">Fault</string>
+    <string name="colorsub">Color</string>
+    <string name="collectionsub">Collection Option</string>
+    <string name="NameEntry">Username</string>
+    <string name="usernamesub">Username</string>
+    <string name="csfullname">Full Name</string>
+    <string name="customerFullName">Full Name</string>
+    <string name="customerusername">Username</string>
+    <string name="Countryname">Country*</string>
+    <string name="CsCountryv">Country</string>
+    <string name="CsCountryh">Country</string>
+    <string name="DeviceSelectionSub">Please enter your device information</string>
+    <string name="Personalsub">Enter your personal details</string>
+    <string name="panelSub">Admin Panel</string>
+    <string name="mobilerepairsub">Mobile repair</string>
+    <string name="tabletrepairsub">Tablet repair</string>
+
+    <string name="totalrepairsub">Total repairs</string>
+
+    <string name="mobilerepaircount">Phone</string>
+    <string name="tabletrepaircount">Tablet</string>
+    <string name="totalrepair">totalrepair</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="adminpanelsub">Admin Panel</string>
+    <string name="entrysub">Admin: Please Login to proceed </string>
+    <string name="adminusername">Username</string>
+    <string name="adminpassword">Password</string>
+    <string name="adminenter">Login</string>
+    <string name="userSub">Username</string>
+    <string name="deviceSub">Device</string>
+    <string name="modelSub">Model</string>
+    <string name="faultSub">Fault</string>
+    <string name="mobilebutton">View Total Orders</string>
+    <string name="infosub">Repair Info</string>
+    <string name="repaircount">Repair Count</string>
+    <string name="totalOsub">Total Orders</string>
+    <string name="searchSub">Search</string>
+    <string name="input_search">Enter Address or City</string>
+    <string name="customerpanelsub">Customer Panel</string>
+    <string name="checkAdmin">Remember Me</string>
+
+</resources>
